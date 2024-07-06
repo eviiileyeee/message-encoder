@@ -1,0 +1,68 @@
+
+
+  /* code*/
+.container{
+    margin: 10%;
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    background-color: rgb(221, 255, 0);
+}
+
+
+/*style for result box*/
+.output {
+    position: relative;
+    max-width: 600px;
+    width: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.result-encode{
+    min-height: 10px; /* Initial height */
+    max-height: 300px; /* Max height */
+    overflow-y: auto; /* Add scrollbar if needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    resize: vertical; /* Allow vertical resizing */
+    box-shadow: 20px 20px 60px black, inset -20px -20px 60px white;
+  }
+  
+  .copy-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .result-decode{
+    min-height: 10px; /* Initial height */
+    max-height: 300px; /* Max height */
+    overflow-y: auto; /* Add scrollbar if needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    resize: vertical; /* Allow vertical resizing */
+    box-shadow: 20px 20px 60px black, inset -20px -20px 60px white;
+
+  }
+  

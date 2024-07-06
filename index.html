@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder-Decoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gradient">
+        <nav>
+
+        </nav>
+        <section class="container">
+            <div class="encode-div" id="encode-div">
+                <label for="encode">encode message</label><br>
+                <input type="text" id="encode" name="encode" placeholder="enter message">
+                <button id="encode_btn" onclick="encode()">encode</button>
+                <div class="output">
+                    <div class="result-encode" id="result-encode"></div>
+                    <button id="copyButton1" class="copy-button">Copy Text</button>
+                </div>
+            </div>
+            <div class="decode-div" id="decode-div">
+                <label for="decode">decode message</label><br>
+                <input type="text" id="decode" name="decode" placeholder="enter encoded text">
+                <button id="decode-btn" onclick="decode()">decode</button>
+                <div class="output">
+                    <div class="result-decode" id="result-decode" placeholder="your results will shown here"></div>
+                    <button id="copyButton2" class="copy-button">Copy Text</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
