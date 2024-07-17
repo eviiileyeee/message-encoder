@@ -19,7 +19,7 @@ const encode = () =>{
     
         //copy button
     
-          document.getElementById('copyButton2').addEventListener('click', function() {
+          document.getElementById('copyButton1').addEventListener('click', function() {
             const messageBox = document.getElementById('result-encode');
             
             // Select the text inside the message box
