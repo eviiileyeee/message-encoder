@@ -1,0 +1,103 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #313131;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 600;
+  color: green;
+}
+
+.container {
+  margin: 20px 0;
+  width: 380px;
+  color: green;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid green;
+  box-shadow: 1px 1px 10px;
+}
+
+
+.encode-div {
+  color: green;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*input*/
+#encode {
+  font-weight: 400;
+  width: 320px;
+  height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+  background-color: black;
+  border: 1px solid green;
+}
+
+#encode_btn {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  color: black;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+}
+
+#encode_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.result-encode {
+  min-height: 20px;
+  /* Initial height */
+  min-width: 300px;
+  max-height: 300px;
+  /* Max height */
+  overflow-x: auto;
+  /* Add scrollbar if needed */
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.output {
+  position: relative;
+  max-width: 600px;
+  width: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/*copy button*/
+.copy-button {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  background-color: black;
+  color: green;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.copy-button:hover {
+  background-color: green;
+  color: black;
+}
